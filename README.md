@@ -2,7 +2,7 @@
 [![Python 3.6](https://img.shields.io/badge/Python-3.6%20or%20newer-blue.svg)](https://www.python.org/downloads/release/python-360/)
 ![GitHub repo size](https://img.shields.io/github/repo-size/HellBoy-OP/Hellbot)
 [![HitCount](http://hits.dwyl.com/HellBoy-OP/HellBot.svg)](http://hits.dwyl.com/HellBoy-OP/HellBot)
-[![Contact Me](https://img.shields.io/badge/Telegram-Contact%20Me-informational)](https://t.me/krish1303y)
+[![Contact Me](https://img.shields.io/badge/Telegram-Contact%20Me-informational)](https://t.me/ERROR_404_USER_NOT_FOUNDED)
 
 
 # †hê B乛LAC Uʂҽɾზσƚ
@@ -11,7 +11,7 @@
 
 This is a userbot made for telegram. I made this userbot with help of all other userbots available in telegram. All credits goes to its Respective Owners....
 
-This is the one and only official B Lac Userbot made by [@krish1303y](https://t.me/krish1303y) Also join support channel and group :- https://t.me/BLAC_USERBOT_SUPPORT Enjoy Your Bot!!💝
+This is the one and only official B Lac Userbot made by [JATT](https://t.me/ERROR_404_USER_NOT_FOUNDED) Also join support channel and group :- https://t.me/BLAC_USERBOT_SUPPORT Enjoy Your Bot!!💝
 [![B乛LAC Uʂҽɾზσƚ](https://telegra.ph/file/76daded01da7289d0bd4d.jpg)](https://t.me/BLAC_USERBOT_SUPPORT)
 
 
@@ -34,9 +34,6 @@ This is the one and only official B Lac Userbot made by [@krish1303y](https://t.
 
 [![Run on Repl.it](https://repl.it/badge/github/STARKGANG/friday)](https://repl.it/@PoxsisYT/B-Lac#main.py)
 
-# Credits👀
-### • [JaaduBot](https://github.com/Amberyt/JaaduBot)
-## One and only. Others with some misfuntioning brain stay out from this SUPER POWERFULL BOT😏
 
 ## Official Support 💖
 <a href="https://t.me/BLAC_USERBOT_SUPPORT"><img src="https://img.shields.io/badge/Join-Support%20Channel-red.svg?style=for-the-badge&logo=Telegram"></a>

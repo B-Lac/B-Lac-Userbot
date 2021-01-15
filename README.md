@@ -19,7 +19,7 @@ This is the one and only official B Lac Userbot made by [JATT](https://t.me/ERRO
 
 
 # For any query:-
-### [Join Here For Any Query](https://t.me/BLAC_USERBOT_SUPPORT)
+### [Join Here For Any Query](https://t.me/BLAC_FIGHTER)
 
 # FORK AT YOUR OWN RISK
 ## Installing
@@ -36,8 +36,8 @@ This is the one and only official B Lac Userbot made by [JATT](https://t.me/ERRO
 
 
 ## Official Support 💖
-<a href="https://t.me/BLAC_USERBOT_SUPPORT"><img src="https://img.shields.io/badge/Join-Support%20Channel-red.svg?style=for-the-badge&logo=Telegram"></a>
-<a href="https://t.me/BLAC_USERBOT_SUPPORT_Chat"><img src="https://img.shields.io/badge/Join-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/BLAC_USERBOT"><img src="https://img.shields.io/badge/Join-Support%20Channel-red.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/BLAC_FIGHTER"><img src="https://img.shields.io/badge/Join-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
 
 ## The Normal Way
 

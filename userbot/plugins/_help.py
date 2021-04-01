@@ -1,21 +1,20 @@
 # Rewritten by @keinshin
 import io
-import os
-
-from userbot import ALIVE_NAME, CMD_HELP, CMD_LIST
+from  userbot import CMD_LIST, ALIVE_NAME, bot as light
+from userbot import CMD_HELP
+from userbot.Config import Var
 from userbot.utils import admin_cmd
+import asyncio
 from var import Var
 
-DEFAULTUSER = (
-    str(ALIVE_NAME)
-    if ALIVE_NAME
-    else "Pls Go To Heroku Vars Then in  `ALIVE_NAME`place You Telegram `Username` "
-)
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Pls Go To Heroku Vars Then in  `ALIVE_NAME`place You Telegram `Username` "
 CMD_HNDLR = Var.CMD_HNDLR
 CUSTOM_HELP_EMOJI = os.environ.get("CUSTOM_HELP_EMOJI", "??")
 
 if CMD_HNDLR is None:
-    CMD_HNDLR = "."
+    CMD_HNDLR = "."   
+            
+
 
 
 @borg.on(admin_cmd(pattern="help ?(.*)"))
@@ -62,7 +61,7 @@ async def cmd_list(event):
             else:
                 await event.edit(input_str + " is not a valid plugin!")
         else:
-            help_string = f"""`Userbot Helper for {DEFAULTUSER} to reveal all the commands of `**[鈥爃锚 B涔汱AC U蕚医删醿栂兤歖(https://github.com/B-Lac/B-Lac-Userbot)**\nIn Case The Help Dosent Pop Up do `.help <cmd name>`"""
+            help_string = f"""`Userbot Helper for {DEFAULTUSER} to reveal all the commands of `**[鈥爃? B涔汱AC U??????歖(https://github.com/B-Lac/B-Lac-Userbot)**\nIn Case The Help Dosent Pop Up do `.help <cmd name>`"""
             try:
                 results = await bot.inline_query(  # pylint:disable=E0602
                     tgbotusername, help_string

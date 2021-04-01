@@ -2,7 +2,7 @@
 import io
 import os
 
-from userbot import ALIVE_NAME, CMD_HELP, CMD_LIST
+from userbot import ALIVE_NAME, CMD_HELP, CMD_HNDLR, CMD_LIST
 from userbot.Config import Var
 from userbot.utils import admin_cmd
 from var import Var

@@ -1,19 +1,22 @@
 # Rewritten by @keinshin
-import os
 import io
-from  userbot import CMD_LIST, ALIVE_NAME, bot as light
-from userbot import CMD_HELP
+import os
+
+from userbot import ALIVE_NAME, CMD_HELP, CMD_LIST
 from userbot.utils import admin_cmd
-import asyncio
 from var import Var
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Pls Go To Heroku Vars Then in  `ALIVE_NAME`place You Telegram `Username` "
+DEFAULTUSER = (
+    str(ALIVE_NAME)
+    if ALIVE_NAME
+    else "Pls Go To Heroku Vars Then in  `ALIVE_NAME`place You Telegram `Username` "
+)
 CMD_HNDLR = Var.CMD_HNDLR
 CUSTOM_HELP_EMOJI = os.environ.get("CUSTOM_HELP_EMOJI", "??")
 
 if CMD_HNDLR is None:
-    CMD_HNDLR = "."   
-            
+    CMD_HNDLR = "."
+
 
 @borg.on(admin_cmd(pattern="help ?(.*)"))
 async def cmd_list(event):

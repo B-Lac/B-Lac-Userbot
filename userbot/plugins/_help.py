@@ -6,7 +6,7 @@ from userbot.Config import Var
 from userbot.utils import admin_cmd
 from var import Var
 
-DEFAULTUSER = (str(ALIVE_NAME)if ALIVE_NAMEelse "Pls Go To Heroku Vars Then in  `ALIVE_NAME`place You Telegram `Username` ")
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "鈥爃锚 B涔汱AC U蕚医删"
 CUSTOM_HELP_EMOJI = os.environ.get("CUSTOM_HELP_EMOJI", "??")
 
 if CMD_HNDLR is None:

@@ -1,4 +1,5 @@
 # Rewritten by @keinshin
+import os
 import io
 
 from userbot import ALIVE_NAME, CMD_HELP, CMD_LIST

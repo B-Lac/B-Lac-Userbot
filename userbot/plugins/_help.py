@@ -5,7 +5,6 @@ import os
 from userbot import ALIVE_NAME, CMD_HELP, CMD_HNDLR, CMD_LIST
 from userbot.Config import Var
 from userbot.utils import admin_cmd
-from var import Var
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "鈥爃锚 B涔汱AC U蕚医删"
 CMD_HNDLR = Var.CMD_HNDLR

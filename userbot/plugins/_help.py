@@ -1,15 +1,19 @@
-import os
-
-from userbot import ALIVE_NAME, CMD_HELP, CMD_HNDLR, CMD_LIST
-from userbot.Config import Var
+# Rewritten by @keinshin
+import io
+from  userbot import CMD_LIST, ALIVE_NAME, bot as light
+from userbot import CMD_HELP
 from userbot.utils import admin_cmd
+import asyncio
+from var import Var
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "†hê B乛LAC Uʂҽɾ"
-CMD_HNDLR = Var.CMD_HNDLR
-CUSTOM_HELP_EMOJI = os.environ.get("CUSTOM_HELP_EMOJI", "𝔅")
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Pls Go To Heroku Vars Then in  `ALIVE_NAME`place You Telegram `Username` "
+ CMD_HNDLR = Var.CMD_HNDLR
+CUSTOM_HELP_EMOJI = os.environ.get("CUSTOM_HELP_EMOJI", "??")
 
 if CMD_HNDLR is None:
-    CMD_HNDLR = "."
+    CMD_HNDLR = "."   
+            
+
 
 
 @borg.on(admin_cmd(pattern="help ?(.*)"))
@@ -45,18 +49,18 @@ async def cmd_list(event):
                 if input_str in CMD_HELP:
                     for i in CMD_HELP[input_str]:
                         string += i
-                    string += "\n\n**© @BLAC_USERBOT**"
+                    string += "\n\n**漏 @BLAC_USERBOT**"
                     await event.edit(string)
                 else:
                     for i in CMD_LIST[input_str]:
                         string += "    " + i
                         string += "\n"
-                    string += "\n**© @BLAC_USERBOT**"
+                    string += "\n**漏 @BLAC_USERBOT**"
                     await event.edit(string)
             else:
                 await event.edit(input_str + " is not a valid plugin!")
         else:
-            help_string = f"""`Userbot Helper for {DEFAULTUSER} to reveal all the commands of `**[†hê B乛LAC Uʂҽɾზσƚ](https://github.com/B-Lac/B-Lac-Userbot)**\nIn Case The Help Dosent Pop Up do `.help <cmd name>`"""
+            help_string = f"""`Userbot Helper for {DEFAULTUSER} to reveal all the commands of `**[鈥爃锚 B涔汱AC U蕚医删醿栂兤歖(https://github.com/B-Lac/B-Lac-Userbot)**\nIn Case The Help Dosent Pop Up do `.help <cmd name>`"""
             try:
                 results = await bot.inline_query(  # pylint:disable=E0602
                     tgbotusername, help_string

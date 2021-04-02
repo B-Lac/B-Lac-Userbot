@@ -1,14 +1,16 @@
 # Rewritten by @keinshin
-import io
-from  userbot import CMD_LIST, ALIVE_NAME, bot as light
-from userbot import CMD_HELP
-from userbot.utils import admin_cmd
 import asyncio
+
+from userbot import ALIVE_NAME, CMD_LIST
+from userbot.utils import admin_cmd
 from var import Var
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Pls Go To Heroku Vars Then in  `ALIVE_NAME`place You Telegram `Username` "
-    
-            
+DEFAULTUSER = (
+    str(ALIVE_NAME)
+    if ALIVE_NAME
+    else "Pls Go To Heroku Vars Then in  `ALIVE_NAME`place You Telegram `Username` "
+)
+
 
 @borg.on(admin_cmd(pattern="help ?(.*)"))
 async def cmd_list(event):
@@ -42,7 +44,7 @@ async def cmd_list(event):
         else:
             light_help_strin = """**Blac userbot Heres With The Detailed Help For CMDs** ???? !\n If Faced Any Bug Please Give The Feed Back at @lightningsupport:"""
             results = await bot.inline_query(  # pylint:disable=E0602
-            lightningusername, light_help_strin
+                lightningusername, light_help_strin
             )
             await results[0].click(
                 event.chat_id, reply_to=event.reply_to_msg_id, hide_via=True

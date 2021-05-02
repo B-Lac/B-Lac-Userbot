@@ -66,7 +66,7 @@ async def start(event):
             link_preview=False,
             buttons=[
                 [custom.Button.inline("Deploy your B Lac", data="deploy")],
-                [Button.url("Help Me ❓", "https://t.me/BLACUSERBOT")],
+                [Button.url("Help Me ❓", "https://t.me/IXKKl")],
             ],
         )
 
@@ -85,10 +85,10 @@ async def help(event):
                 [
                     Button.url(
                         "Deploy Tutorial 📺",
-                        "https://www.youtube.com/watch?v=GfZMqrCAqxI",
+                        "https://l.top4top.io/m_194605zdm0.mp4",
                     )
                 ],
-                [Button.url("Need Help ❓", "https://t.me/BLACUSERBOT")],
+                [Button.url("Need Help ❓", "https://t.me/IXKKl")],
             ],
         )
 

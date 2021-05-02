@@ -379,7 +379,7 @@ DISABLE_ROON = False
 
 @borg.on(events.NewMessage(outgoing=True, pattern="^:/$"))
 async def kek(keks):
-    """ Check yourself ;)"""
+    """Check yourself ;)"""
     uio = ["/", "\\"]
     for i in range(1, 15):
         time.sleep(0.3)
@@ -388,7 +388,7 @@ async def kek(keks):
 
 @borg.on(events.NewMessage(outgoing=True, pattern="^-_-$"))
 async def lol(lel):
-    """ Ok... """
+    """Ok..."""
     okay = "-_-"
     for _ in range(10):
         okay = okay[:-1] + "_-"
@@ -405,21 +405,21 @@ async def fun(e):
 
 @borg.on(admin_cmd(pattern="cri", outgoing=True))
 async def cri(e):
-    """ y u du dis, i cry everytime !! """
+    """y u du dis, i cry everytime !!"""
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit(random.choice(CRI))
 
 
 @borg.on(admin_cmd(pattern="insut", outgoing=True))
 async def cry(e):
-    """ y u du dis, i cry everytime !! """
+    """y u du dis, i cry everytime !!"""
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit(random.choice(INSULT_STRINGS))
 
 
 @borg.on(admin_cmd(pattern="cp(?: |$)(.*)", outgoing=True))
 async def copypasta(cp_e):
-    """ Copypasta the famous meme """
+    """Copypasta the famous meme"""
     if not cp_e.text[0].isalpha() and cp_e.text[0] not in ("/", "#", "@", "!"):
         textx = await cp_e.get_reply_message()
         message = cp_e.pattern_match.group(1)
@@ -455,7 +455,7 @@ async def copypasta(cp_e):
 
 @borg.on(admin_cmd(pattern="vapor(?: |$)(.*)", outgoing=True))
 async def vapor(vpr):
-    """ Vaporize everything! """
+    """Vaporize everything!"""
     if not vpr.text[0].isalpha() and vpr.text[0] not in ("/", "#", "@", "!"):
         reply_text = list()
         textx = await vpr.get_reply_message()
@@ -481,7 +481,7 @@ async def vapor(vpr):
 
 @borg.on(admin_cmd(pattern="str(?: |$)(.*)", outgoing=True))
 async def stretch(stret):
-    """ Stretch it."""
+    """Stretch it."""
     if not stret.text[0].isalpha() and stret.text[0] not in ("/", "#", "@", "!"):
         textx = await stret.get_reply_message()
         message = stret.text
@@ -503,7 +503,7 @@ async def stretch(stret):
 
 @borg.on(admin_cmd(pattern="izal(?: |$)(.*)", outgoing=True))
 async def izal(zgfy):
-    """ Invoke the feeling of chaos. """
+    """Invoke the feeling of chaos."""
     if not zgfy.text[0].isalpha() and zgfy.text[0] not in ("/", "#", "@", "!"):
         reply_text = list()
         textx = await zgfy.get_reply_message()
@@ -540,21 +540,21 @@ async def izal(zgfy):
 
 @borg.on(admin_cmd(pattern="hi", outgoing=True))
 async def hoi(hello):
-    """ Greet everyone! """
+    """Greet everyone!"""
     if not hello.text[0].isalpha() and hello.text[0] not in ("/", "#", "@", "!"):
         await hello.edit(random.choice(HELLOSTR))
 
 
 @borg.on(admin_cmd(pattern="irand", outgoing=True))
 async def irand(randi):
-    """ur a Randi! """
+    """ur a Randi!"""
     if not randi.text[0].isalpha() and randi.text[0] not in ("/", "#", "@", "!"):
         await randi.edit(random.choice(RENDISTR))
 
 
 @borg.on(admin_cmd(pattern="owo(?: |$)(.*)", outgoing=True))
 async def faces(owo):
-    """ UwU """
+    """UwU"""
     if not owo.text[0].isalpha() and owo.text[0] not in ("/", "#", "@", "!"):
         textx = await owo.get_reply_message()
         message = owo.pattern_match.group(1)
@@ -578,14 +578,14 @@ async def faces(owo):
 
 @borg.on(admin_cmd(pattern="shrug", outgoing=True))
 async def shrugger(shg):
-    r""" ¯\_(ツ)_/¯ """
+    r"""¯\_(ツ)_/¯"""
     if not shg.text[0].isalpha() and shg.text[0] not in ("/", "#", "@", "!"):
         await shg.edit(random.choice(SHGS))
 
 
 @borg.on(admin_cmd(pattern="roon", outgoing=True))
 async def runner_lol(roon):
-    """ Run, run, RUNNN! """
+    """Run, run, RUNNN!"""
     if not DISABLE_ROON:
         if not roon.text[0].isalpha() and roon.text[0] not in ("/", "#", "@", "!"):
             await roon.edit(random.choice(RUN_REACTS))
@@ -593,7 +593,7 @@ async def runner_lol(roon):
 
 @borg.on(admin_cmd(pattern="disable roon", outgoing=True))
 async def disable_roon(noroon):
-    """ Some people don't like running... """
+    """Some people don't like running..."""
     if not noroon.text[0].isalpha() and noroon.text[0] not in ("/", "#", "@", "!"):
         global DISABLE_ROON
         DISABLE_ROON = True
@@ -602,7 +602,7 @@ async def disable_roon(noroon):
 
 @borg.on(admin_cmd(pattern="enable roon", outgoing=True))
 async def enable_roon(roon):
-    """ But some do! """
+    """But some do!"""
     if not roon.text[0].isalpha() and roon.text[0] not in ("/", "#", "@", "!"):
         global DISABLE_ROON
         DISABLE_ROON = False
@@ -617,7 +617,7 @@ async def iqless(e):
 
 @borg.on(admin_cmd(pattern="mock(?: |$)(.*)", outgoing=True))
 async def spongemocktext(mock):
-    """ Do it and find the real fun. """
+    """Do it and find the real fun."""
     if not mock.text[0].isalpha() and mock.text[0] not in ("/", "#", "@", "!"):
         reply_text = list()
         textx = await mock.get_reply_message()
@@ -642,7 +642,7 @@ async def spongemocktext(mock):
 
 @borg.on(admin_cmd(pattern="clap(?: |$)(.*)", outgoing=True))
 async def claptext(memereview):
-    """ Praise people! """
+    """Praise people!"""
     if not memereview.text[0].isalpha() and memereview.text[0] not in (
         "/",
         "#",
@@ -666,7 +666,7 @@ async def claptext(memereview):
 
 @borg.on(admin_cmd(pattern="bt", outgoing=True))
 async def bluetext(bt_e):
-    """ Believe me, you will find this useful. """
+    """Believe me, you will find this useful."""
     if not bt_e.text[0].isalpha() and bt_e.text[0] not in ("/", "#", "@", "!"):
         if await bt_e.get_reply_message():
             await bt_e.edit(

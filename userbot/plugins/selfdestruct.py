@@ -12,7 +12,7 @@ from userbot.utils import admin_cmd
 
 @borg.on(admin_cmd("sd", outgoing=True))
 async def selfdestruct(destroy):
-    """ For .sd command, make seflf-destructable messages. """
+    """For .sd command, make seflf-destructable messages."""
     if not destroy.text[0].isalpha() and destroy.text[0] not in ("/", "#", "@", "!"):
         message = destroy.text
         counter = int(message[4:6])

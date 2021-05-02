@@ -282,7 +282,7 @@ async def _(event):
 
 
 def get_video_thumb(file, output=None, width=90):
-    """ Get video thumbnail """
+    """Get video thumbnail"""
     metadata = extractMetadata(createParser(file))
     popen = subprocess.Popen(
         [
@@ -308,7 +308,7 @@ def get_video_thumb(file, output=None, width=90):
 
 
 def extract_w_h(file):
-    """ Get width and height of media """
+    """Get width and height of media"""
     command_to_run = [
         "ffprobe",
         "-v",

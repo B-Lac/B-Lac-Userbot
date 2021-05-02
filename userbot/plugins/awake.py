@@ -28,6 +28,6 @@ if ALIVE_MESSAGE is None:
 # @command(outgoing=True, pattern="^.awake$")
 @borg.on(admin_cmd(pattern=r"awake"))
 async def amireallyalive(awake):
-    """ For .awake command, check if the bot is running.  """
+    """For .awake command, check if the bot is running."""
     await awake.delete()
     await borg.send_file(awake.chat_id, ALIVE_PIC, caption=ALIVE_MESSAGE)

@@ -80,7 +80,7 @@ async def get_user_from_id(user, event):
 
 
 async def get_user_from_event(event: NewMessage.Event, **kwargs):
-    """ Get the user from argument or replied message. """
+    """Get the user from argument or replied message."""
     reply_msg: Message = await event.get_reply_message()
     user = kwargs.get("user", None)
 
@@ -287,7 +287,7 @@ class TGDoc:
 
 @register(pattern=r"^\.u(?:ser)?(\s+[\S\s]+|$)", outgoing=True)
 async def who(event: NewMessage.Event):
-    """ For .user command, get info about a user. """
+    """For .user command, get info about a user."""
     if event.fwd_from:
         return
 
@@ -316,7 +316,7 @@ async def who(event: NewMessage.Event):
 
 
 async def fetch_info(replied_user, **kwargs):
-    """ Get details from the User object. """
+    """Get details from the User object."""
     user = replied_user.user
 
     id_only = kwargs.get("id", False)
@@ -475,7 +475,7 @@ async def get_user_from_id(user, event):
 
 
 async def get_user_from_event(event: NewMessage.Event, **kwargs):
-    """ Get the user from argument or replied message. """
+    """Get the user from argument or replied message."""
     reply_msg: Message = await event.get_reply_message()
     user = kwargs.get("user", None)
 
@@ -682,7 +682,7 @@ class TGDoc:
 
 @register(pattern=r"^\.u(?:ser)?(\s+[\S\s]+|$)", outgoing=True)
 async def who(event: NewMessage.Event):
-    """ For .user command, get info about a user. """
+    """For .user command, get info about a user."""
     if event.fwd_from:
         return
 
@@ -711,7 +711,7 @@ async def who(event: NewMessage.Event):
 
 
 async def fetch_info(replied_user, **kwargs):
-    """ Get details from the User object. """
+    """Get details from the User object."""
     user = replied_user.user
 
     id_only = kwargs.get("id", False)

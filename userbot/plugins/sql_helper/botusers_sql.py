@@ -22,7 +22,7 @@ from . import BASE, SESSION
 
 
 class Users(BASE):
-    """ Table to store the received messages """
+    """Table to store the received messages"""
 
     __tablename__ = "users"
     message_id = Column(Integer, primary_key=True)
@@ -42,14 +42,14 @@ Users.__table__.create(checkfirst=True)
 
 
 def add_me_in_db(message_id: int, chat_id: int, um_id: int):
-    """ add the message to the table """
+    """add the message to the table"""
     __user = Users(message_id, str(chat_id), um_id)
     SESSION.add(__user)
     SESSION.commit()
 
 
 def his_userid(message_id: int):
-    """ get the user_id from the message_id """
+    """get the user_id from the message_id"""
     try:
         s__ = SESSION.query(Users).get(str(message_id))
         return int(s__.chat_id), s__.um_id

@@ -8,7 +8,7 @@ from uniborg.util import admin_cmd
 
 @borg.on(admin_cmd("listmyusernames"))
 async def mine(event):
-    """ For .reserved command, get a list of your reserved usernames. """
+    """For .reserved command, get a list of your reserved usernames."""
     result = await bot(GetAdminedPublicChannelsRequest())
     output_str = ""
     for channel_obj in result.chats:

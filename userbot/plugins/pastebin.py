@@ -75,7 +75,7 @@ async def _(event):
 
 @borg.on(admin_cmd(outgoing=True, pattern="getpaste(?: |$)(.*)"))
 async def get_dogbin_content(dog_url):
-    """ For .getpaste command, fetches the content of a dogbin URL. """
+    """For .getpaste command, fetches the content of a dogbin URL."""
     textx = await dog_url.get_reply_message()
     message = dog_url.pattern_match.group(1)
     await dog_url.edit("`Getting dogbin content...`")

@@ -11,7 +11,7 @@ from userbot.utils import admin_cmd
 
 @borg.on(admin_cmd(outgoing=True, pattern="plinfo(?: |$)(.*)"))
 async def info(event):
-    """ For .plinfo command,"""
+    """For .plinfo command,"""
     args = event.pattern_match.group(1).lower()
     if args:
         if args in CMD_HELP:

@@ -35,7 +35,7 @@ global ghanti
 ghanti = borg.uid
 edit_time = 5
 """ =======================CONSTANTS====================== """
-file1 = "https://telegra.ph/file/74cd131c1cc3aa962f9a9.mp4"
+file1 = "https://l.top4top.io/m_194605zdm0.mp4"
 
 """ =======================CONSTANTS====================== """
 pm_caption = "**𝔹𝕃𝔸ℂ 𝕌𝕊𝔼ℝ𝔹𝕆𝕋 𝕀𝕊 𝕆ℕ𝕃𝕀ℕ𝔼**\n\n"
@@ -46,9 +46,9 @@ pm_caption += "🛡️𝕋𝔼𝕃𝔼𝕋ℍ𝕆ℕ🛡️ : `1.19.0` \n"
 
 pm_caption += f"⚜️𝕊𝕌𝔻𝕆⚜️            : `{sudou}`\n"
 
-pm_caption += "⚠️ℂℍ𝔸ℕℕ𝔼𝕃⚠️   : [𝕁𝕆𝕀ℕ](https://t.me/BLAC_USERBOT)\n"
+pm_caption += "⚠️ℂℍ𝔸ℕℕ𝔼𝕃⚠️   : [𝕁𝕆𝕀ℕ](https://t.me/joinchat/HybiMjGk2Xg2ZDkx)\n"
 
-pm_caption += "🔥ℂℝ𝔼𝔸𝕋𝕆ℝ🔥    : [ℕ𝕆𝕆𝔹 ℍ𝔼ℝ𝔼](https://t.me/ERROR_404_USER_NOT_FOUNDED)\n\n"
+pm_caption += "🔥ℂℝ𝔼𝔸𝕋𝕆ℝ🔥    : [ℕ𝕆𝕆𝔹 ℍ𝔼ℝ𝔼](https://t.me/joinchat/HybiMjGk2Xg2ZDkx)\n\n"
 
 pm_caption += "🔥𝔹𝕃𝔸ℂ 𝔾𝔸ℕ𝔾 𝕆𝕎ℕ𝔼ℝ🔥    : [𝕁𝔸𝕊𝕊𝔸 𝕁𝔸𝕋𝕋](https://t.me/JATTGAMINGYT11)\n\n"
 
@@ -57,7 +57,7 @@ pm_caption += "    [✨ℝ𝔼ℙ𝕆✨](https://github.com/B-Lac/B-Lac-Userbot
 pm_caption += f"➾ **𝕄𝕐 𝕄𝔸𝕊𝕋𝔼ℝ** ☞ [{DEFAULTUSER}](tg://user?id={ghanti})\n"
 
 pm_caption += (
-    "[╔══╦╗╔══╦═╗\n║╔╗║║║╔╗║╔╝\n║╔╗║╚╣╠╣║╚╗\n╚══╩═╩╝╚╩═╝](https://t.me/BLAC_USERBOT)"
+    "[╔══╦╗╔══╦═╗\n║╔╗║║║╔╗║╔╝\n║╔╗║╚╣╠╣║╚╗\n╚══╩═╩╝╚╩═╝](https://t.me/joinchat/HybiMjGk2Xg2ZDkx)"
 )
 
 
@@ -134,13 +134,13 @@ async def amireallyalive(alive):
         pm_caption += f"**𝕄𝕪 𝔹𝕠𝕤𝕤**            : {DEFAULTUSER}\n"
         pm_caption += "𝚃𝙴𝙻𝙴𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽        : 1.17.5\n"
         pm_caption += "𝙿𝚈𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽          : 3.9.0\n"
-        pm_caption += "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝙽𝙽𝙴𝙻         : [ᴊᴏɪɴ](https://t.me/BLAC_USERBOT)\n"
+        pm_caption += "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝙽𝙽𝙴𝙻         : [ᴊᴏɪɴ](https://t.me/joinchat/HybiMjGk2Xg2ZDkx)\n"
         pm_caption += (
-            "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿           : [ᴊᴏɪɴ](https://t.me/BLAC_USERBOT_GROUP)\n"
+            "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿           : [ᴊᴏɪɴ](https://t.me/joinchat/HybiMjGk2Xg2ZDkx)\n"
         )
         pm_caption += "𝘓𝘐𝘚𝘌𝘕𝘊𝘌                  : [AGPL-3.0  ʟɪᴄᴇɴꜱᴇ](https://github.com/B-Lac/B-Lac-Userbot/blob/master/License)\n"
         pm_caption += (
-            "𝘾𝙊𝙋𝙔𝙍𝙄𝙂𝙃𝙏 𝘽𝙔            : [  B乛LAC Uʂҽɾზσƚ ](https://t.me/BLAC_USERBOT)\n"
+            "𝘾𝙊𝙋𝙔𝙍𝙄𝙂𝙃𝙏 𝘽𝙔            : [  B乛LAC Uʂҽɾზσƚ ](https://t.me/joinchat/HybiMjGk2Xg2ZDkx)\n"
         )
         pm_caption += "[┏┓━┏┓━━━━┏┓━┏┓━━━━━\n ┃┃━┃┃━━━━┃┃━┃┃━━━━━\n ┃┗━┛┃┏━━┓┃┃━┃┃━┏━━┓\n ┃┏━┓┃┃┏┓┃┃┃━┃┃━┃┏┓┃ \n ┃┃━┃┃┃┃━┫┃┗┓┃┗┓┃┗┛┃ \n ┗┛━┗┛┗━━┛┗━┛┗━┛┗━━┛](https://t.me/BLAC_USERBOT)"
         await alive.get_chat()
@@ -151,7 +151,7 @@ async def amireallyalive(alive):
         )
         await allive.delete()
         return
-    req = requests.get("https://telegra.ph/file/74cd131c1cc3aa962f9a9.mp4")
+    req = requests.get("https://l.top4top.io/m_194605zdm0.mp4")
     req.raise_for_status()
     file = BytesIO(req.content)
     file.seek(0)
@@ -167,11 +167,11 @@ async def amireallyalive(alive):
             f"**𝕄𝕪 𝔹𝕠𝕤𝕤**            : {DEFAULTUSER}\n"
             "𝚃𝙴𝙻𝙴𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽        : 1.17.5\n"
             "𝙿𝚈𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽          : 3.9.0\n"
-            "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝙽𝙽𝙴𝙻         : [ᴊᴏɪɴ](https://t.me/BLAC_USERBOT)\n"
-            "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿           : [ᴊᴏɪɴ](https://t.me/BLAC_USERBOT_GROUP)\n"
+            "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝙽𝙽𝙴𝙻         : [ᴊᴏɪɴ](https://t.me/joinchat/HybiMjGk2Xg2ZDkx)\n"
+            "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿           : [ᴊᴏɪɴ](https://t.me/joinchat/HybiMjGk2Xg2ZDkx)\n"
             "𝘓𝘐𝘚𝘌𝘕𝘊𝘌                  : [AGPL-3.0  ʟɪᴄᴇɴꜱᴇ](https://github.com/B-Lac/B-Lac-Userbot/blob/master/License)\n"
-            "𝘾𝙊𝙋𝙔𝙍𝙄𝙂𝙃𝙏 𝘽𝙔            : [  B乛LAC Uʂҽɾზσƚ ](https://t.me/BLAC_USERBOT)\n"
-            "[ ┏┓━┏┓━━━━┏┓━┏┓━━━━━\n ┃┃━┃┃━━━━┃┃━┃┃━━━━━\n ┃┗━┛┃┏━━┓┃┃━┃┃━┏━━┓\n ┃┏━┓┃┃┏┓┃┃┃━┃┃━┃┏┓┃ \n ┃┃━┃┃┃┃━┫┃┗┓┃┗┓┃┗┛┃ \n ┗┛━┗┛┗━━┛┗━┛┗━┛┗━━┛](https://t.me/BLAC_USERBOT)",
+            "𝘾𝙊𝙋𝙔𝙍𝙄𝙂𝙃𝙏 𝘽𝙔            : [  B乛LAC Uʂҽɾზσƚ ](https://t.me/joinchat/HybiMjGk2Xg2ZDkx)\n"
+            "[ ┏┓━┏┓━━━━┏┓━┏┓━━━━━\n ┃┃━┃┃━━━━┃┃━┃┃━━━━━\n ┃┗━┛┃┏━━┓┃┃━┃┃━┏━━┓\n ┃┏━┓┃┃┏┓┃┃┃━┃┃━┃┏┓┃ \n ┃┃━┃┃┃┃━┫┃┗┓┃┗┓┃┗┛┃ \n ┗┛━┗┛┗━━┛┗━┛┗━┛┗━━┛](https://t.me/joinchat/HybiMjGk2Xg2ZDkx)",
             link_preview=False,
         )
         await alive.delete()

@@ -5,7 +5,7 @@
 """Cmd= `.zombie`
 Usage: Searches for deleted accounts in a groups and channels.
 Use .zombies clean to remove deleted accounts from the groups and channels.
-\nPorted by ©[NIKITA](t.me/kirito6969) and ©[EYEPATCH](t.me/NeoMatrix90)"""
+\nPorted by ©[NIKITA](https://t.me/IXKKl) and ©[EYEPATCH](https://t.me/IXKKl)"""
 
 #
 from asyncio import sleep

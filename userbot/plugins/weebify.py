@@ -1,7 +1,7 @@
 """ Weebify a text,
 Ported from Saitama Bot. 
-By :- @PhycoNinja13b
-Modified by :- @kirito6969
+By :- https://t.me/IXKKl
+Modified by :- https://t.me/IXKKl
 .weeb <text> """
 
 from uniborg.util import admin_cmd

@@ -9,8 +9,8 @@
    "modular",
    "productivity"
   ],
-  "repository": "https://github.com/B-Lac/B-Lac-Userbot",
-  "website": "https://github.com/B-Lac/B-Lac-Userbot",
+  "repository": "https://github.com/hsein120/B-Lac-Userbot",
+  "website": "https://github.com/hsein120/B-Lac-Userbot",
   "success_url": "https://t.me/BLACUSERBOT",
   "stack": "container",
   "env": {

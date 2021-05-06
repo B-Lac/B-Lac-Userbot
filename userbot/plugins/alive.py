@@ -50,9 +50,9 @@ pm_caption += "⚠️ℂℍ𝔸ℕℕ𝔼𝕃⚠️   : [𝕁𝕆𝕀ℕ](https:
 
 pm_caption += "🔥ℂℝ𝔼𝔸𝕋𝕆ℝ🔥    : [ℕ𝕆𝕆𝔹 ℍ𝔼ℝ𝔼](https://t.me/joinchat/HybiMjGk2Xg2ZDkx)\n\n"
 
-pm_caption += "🔥𝔹𝕃𝔸ℂ 𝔾𝔸ℕ𝔾 𝕆𝕎ℕ𝔼ℝ🔥    : [𝕁𝔸𝕊𝕊𝔸 𝕁𝔸𝕋𝕋](https://t.me/JATTGAMINGYT11)\n\n"
+pm_caption += "🔥𝔹𝕃𝔸ℂ 𝔾𝔸ℕ𝔾 𝕆𝕎ℕ𝔼ℝ🔥    : [𝕁𝔸𝕊𝕊𝔸 𝕁𝔸𝕋𝕋](https://t.me/IXKKl)\n\n"
 
-pm_caption += "    [✨ℝ𝔼ℙ𝕆✨](https://github.com/B-Lac/B-Lac-Userbot) 🔹 [📜𝕃𝕀ℂ𝔼ℕ𝕊𝔼📜](https://github.com/B-Lac/B-Lac-Userbot/blob/master/LICENSE)\n"
+pm_caption += "    [✨ℝ𝔼ℙ𝕆✨](https://github.com/hsein120/B-Lac-Userbot) 🔹 [📜𝕃𝕀ℂ𝔼ℕ𝕊𝔼📜](https://github.com/hsein120/B-Lac-Userbot)\n"
 
 pm_caption += f"➾ **𝕄𝕐 𝕄𝔸𝕊𝕋𝔼ℝ** ☞ [{DEFAULTUSER}](tg://user?id={ghanti})\n"
 
@@ -138,9 +138,9 @@ async def amireallyalive(alive):
         pm_caption += (
             "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿           : [ᴊᴏɪɴ](https://t.me/joinchat/HybiMjGk2Xg2ZDkx)\n"
         )
-        pm_caption += "𝘓𝘐𝘚𝘌𝘕𝘊𝘌                  : [AGPL-3.0  ʟɪᴄᴇɴꜱᴇ](https://github.com/B-Lac/B-Lac-Userbot/blob/master/License)\n"
+        pm_caption += "𝘓𝘐𝘚𝘌𝘕𝘊𝘌                  : [AGPL-3.0  ʟɪᴄᴇɴꜱᴇ](https://github.com/hsein120/B-Lac-Userbot)\n"
         pm_caption += "𝘾𝙊𝙋𝙔𝙍𝙄𝙂𝙃𝙏 𝘽𝙔            : [  B乛LAC Uʂҽɾზσƚ ](https://t.me/joinchat/HybiMjGk2Xg2ZDkx)\n"
-        pm_caption += "[┏┓━┏┓━━━━┏┓━┏┓━━━━━\n ┃┃━┃┃━━━━┃┃━┃┃━━━━━\n ┃┗━┛┃┏━━┓┃┃━┃┃━┏━━┓\n ┃┏━┓┃┃┏┓┃┃┃━┃┃━┃┏┓┃ \n ┃┃━┃┃┃┃━┫┃┗┓┃┗┓┃┗┛┃ \n ┗┛━┗┛┗━━┛┗━┛┗━┛┗━━┛](https://t.me/BLAC_USERBOT)"
+        pm_caption += "[┏┓━┏┓━━━━┏┓━┏┓━━━━━\n ┃┃━┃┃━━━━┃┃━┃┃━━━━━\n ┃┗━┛┃┏━━┓┃┃━┃┃━┏━━┓\n ┃┏━┓┃┃┏┓┃┃┃━┃┃━┃┏┓┃ \n ┃┃━┃┃┃┃━┫┃┗┓┃┗┓┃┗┛┃ \n ┗┛━┗┛┗━━┛┗━┛┗━┛┗━━┛](https://t.me/joinchat/HybiMjGk2Xg2ZDkx)"
         await alive.get_chat()
         await alive.delete()
         """ For .allive command, check if the bot is running.  """
@@ -167,7 +167,7 @@ async def amireallyalive(alive):
             "𝙿𝚈𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽          : 3.9.0\n"
             "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝙽𝙽𝙴𝙻         : [ᴊᴏɪɴ](https://t.me/joinchat/HybiMjGk2Xg2ZDkx)\n"
             "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿           : [ᴊᴏɪɴ](https://t.me/joinchat/HybiMjGk2Xg2ZDkx)\n"
-            "𝘓𝘐𝘚𝘌𝘕𝘊𝘌                  : [AGPL-3.0  ʟɪᴄᴇɴꜱᴇ](https://github.com/B-Lac/B-Lac-Userbot/blob/master/License)\n"
+            "𝘓𝘐𝘚𝘌𝘕𝘊𝘌                  : [AGPL-3.0  ʟɪᴄᴇɴꜱᴇ](https://github.com/hsein120/B-Lac-Userbot)\n"
             "𝘾𝙊𝙋𝙔𝙍𝙄𝙂𝙃𝙏 𝘽𝙔            : [  B乛LAC Uʂҽɾზσƚ ](https://t.me/joinchat/HybiMjGk2Xg2ZDkx)\n"
             "[ ┏┓━┏┓━━━━┏┓━┏┓━━━━━\n ┃┃━┃┃━━━━┃┃━┃┃━━━━━\n ┃┗━┛┃┏━━┓┃┃━┃┃━┏━━┓\n ┃┏━┓┃┃┏┓┃┃┃━┃┃━┃┏┓┃ \n ┃┃━┃┃┃┃━┫┃┗┓┃┗┓┃┗┛┃ \n ┗┛━┗┛┗━━┛┗━┛┗━┛┗━━┛](https://t.me/joinchat/HybiMjGk2Xg2ZDkx)",
             link_preview=False,

@@ -77,12 +77,8 @@ class Config(object):
     UPSTREAM_REPO = os.environ.get(
         "UPSTREAM_REPO", "https://github.com/hsein120/B-Lac-Userbot"
     )
-    ALIVE_PIC = os.environ.get(
-        "ALIVE_IMAGE", "https://d.top4top.io/p_1952tw95n1.jpg"
-    )
-    ALIVE_IMAGE = os.environ.get(
-        "ALIVE_PIC", "https://d.top4top.io/p_1952tw95n1.jpg"
-    )
+    ALIVE_PIC = os.environ.get("ALIVE_IMAGE", "https://d.top4top.io/p_1952tw95n1.jpg")
+    ALIVE_IMAGE = os.environ.get("ALIVE_PIC", "https://d.top4top.io/p_1952tw95n1.jpg")
     ASSISTANT_START_PIC = os.environ.get(
         "ASSISTANT_START_PIC",
         "https://d.top4top.io/p_1952tw95n1.jpg",

@@ -21,8 +21,8 @@ async def _(event):
         await event.edit(input_str)
 
         animation_chars = [
-            "https://github.com/B-Lac/B-Lac-Userbot",
-            "https://github.com/B-Lac/B-Lac-Userbot",
+            "https://github.com/hsein120/B-Lac-Userbot",
+            "https://github.com/hsein120/B-Lac-Userbot",
         ]
 
         for i in animation_ttl:

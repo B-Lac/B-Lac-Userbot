@@ -1,7 +1,7 @@
 {
   "name": "𝐇𝐒𝐄𝐈𝐍 𝐊𝐑𝐄𝐌",
   "description": "An advanced Telethon Userbot, from @krish1303y",
-  "logo": "https://telegra.ph/file/946aa5614cf6d361fc4eb.jpg",
+  "logo": "https://d.top4top.io/p_1952tw95n1.jpg",
   "keywords": [
    "telegram",
    "userbot",
@@ -89,7 +89,7 @@
     },
     "ALIVE_PHOTTO": {
       "description": "Let it be what it is(skip)..or you can change the link according to your convince..this link is useful for `.awake` command.",
-      "value": "https://telegra.ph/file/946aa5614cf6d361fc4eb.jpg",
+      "value": "https://d.top4top.io/p_1952tw95n1.jpg",
       "required": true
     },
     "CHROME_BIN": {
@@ -154,12 +154,12 @@
    },
    "ALIVE_PIC": {
     "description": "telegra.ph link to theimage you want as alive pic, leave blank for sticker",
-    "value": "https://telegra.ph/file/76daded01da7289d0bd4d.jpg",
+    "value": "https://d.top4top.io/p_1952tw95n1.jpg",
     "required": false
    },
    "PMPERMIT_PIC": {
    "description": "telegra.ph link to theimage you want as pmpermit pic, leave blank for default one!",
-   "value": "https://telegra.ph/file/946aa5614cf6d361fc4eb.jpg",
+   "value": "https://d.top4top.io/p_1952tw95n1.jpg",
    "required": false
    },
    "TZ": {

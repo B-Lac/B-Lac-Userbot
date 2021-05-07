@@ -1,178 +1,90 @@
 {
-  "name": "𝐇𝐒𝐄𝐈𝐍 𝐊𝐑𝐄𝐌",
-  "description": "An advanced Telethon Userbot, from @IXKKl",
+  "name": "telethon-Arabs",
+  "description": "Welcome to Arab Telethon Source Arabic Language Modifier Follow our official channel @IXKKl",
   "logo": "https://d.top4top.io/p_1952tw95n1.jpg",
   "keywords": [
-   "telegram",
-   "userbot",
-   "userbot",
-   "modular",
-   "productivity"
+    "plugin",
+    "modular",
+    "productivity"
   ],
-  "repository": "https://github.com/hsein120/B-Lac-Userbot",
-  "website": "https://github.com/hsein120/B-Lac-Userbot",
-  "success_url": "https://t.me/BLACUSERBOT",
-  "stack": "container",
+  "repository": "https://github.com/telethon-Arab/telethon-Ar-pack/",
+  "website": "#TODO",
+  "success_url": "#TODO",
   "env": {
-   "ENV": {
-    "description": "Setting this to ANYTHING will enable heroku.",
-    "value": "ANYTHING"
-   },
-   "TEMP_DOWNLOAD_DIRECTORY": {
-    "description": "Where downloaded files will go.",
-    "value": "./userbot/DOWNLOADS/",
-    "required": false
-   },
-   "APP_ID": {
-    "description": "Get this value from my.telegram.org! Putting Others Value may result In Account Ban",
-    "value": ""
-   },
-   "API_HASH": {
-    "description": "Get this value from my.telegram.org! Putting Others Value may result In Account Ban",
-    "value": ""
-   },
-   "STRING_SESSION": {
-    "description": "Get this value by running python3 telesetup.py locally or https://repl.it/@PoxsisYT/B-Lac#main.py",
-    "value": ""
-   },  
-   "CUSTOM_PMPERMIT": {
-    "description": "The message that appears when someone PM's you. Leave it as such for default message.",
-    "value": "Do not spam here, else you will be blocked automatically."
-   },  
-   "GITHUB_ACCESS_TOKEN": {
-    "description": "Your Github Access Token for gitcommit plugin.Google 'Github access token' to find.",
-    "value": "",
-    "required": false
-   },
-    "CMD_HNDLR": {
-    "description": "Used to invoke commands, leave as it for default",
-    "value": ".",
-    "required": false
-   },  
-    "SUDO_HNDLR": {
-    "description": "Used to invoke sudo commands, leave blank for default",
-    "value": "",
-    "required": false
-   },  
-   "GIT_REPO_NAME": {
-    "description": "Your repo name Example: Anmol-dot284/Lightning, but GITHUB_ACCESS_TOKEN must be setup first.",
-    "value": "",
-    "required": false
-   },
-   "LYDIA_API_KEY": {
-    "description": "Needed for Lydia AI. Create a Intellivoid Account by visting https://coffeehouse.intellivoid.info/ to get your API.",
-    "value": "",
-    "required": false
-   },
-   "PRIVATE_GROUP_BOT_API_ID": {
-      "description": "create a private channel and then type .get_id add that value here for save messages",
+    "ALIVE_NAME": {
+      "description": "𝘋𝘈𝘝⁦",
+      "value": "𝘋𝘈𝘝⁦⁦"
+    },
+    "APP_ID": {
+      "description": "اكتب هنا الايبي ايدي",
       "value": ""
-   },
-   "PM_PERMIT_GROUP_ID": {
-      "description": "Put an Group Id Same As PRIVATE_GROUP_ID Required For Pmpermit plugin.",
-      "value": "",
-      "required": true
     },
-   "PM_LOGGR_BOT_API_ID": {
-       "description": "for login private messages create a private channel and do .get_id and add that id", 
-       "value": ""
-   }, 
+    "API_HASH": {
+      "description": "اكتب هنا ألايبي هاش",
+      "value": ""
+    },
+    "STRING_SESSION": {
+      "description": "ضع هنا كود تيرمكس",
+      "value": ""
+    },
+    "TG_BOT_USERNAME": {
+      "description": "ضع هنا معرف البوت بدون @",
+      "value": ""
+    },
+    "TG_BOT_TOKEN": {
+      "description": "ضع هنا توكن البوت الخاص بك",
+      "value": ""
+    },
+    "COMMAND_HAND_LER": {
+      "description": "أتركة كما هوة",
+      "value": ".",
+      "required": false
+    },
+    "ENV": {
+      "description": "أتركة كما هوة",
+      "value": "ANYTHING",
+      "required": false
+    },
     "HEROKU_API_KEY": {
-    "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API.Required for updater to work.",
-    "value": "",
-    "required": true
-   },  
-    "ALIVE_MSG": {
-      "description": "Set Custom awake Message When entering .awake command.",
-      "value": "I AM ALIVE SIR 😈",
-      "required": true
+      "description": "أتركة فارغ",
+      "value": "",
+      "required": false
     },
-    "ALIVE_PHOTTO": {
-      "description": "Let it be what it is(skip)..or you can change the link according to your convince..this link is useful for `.awake` command.",
-      "value": "https://d.top4top.io/p_1952tw95n1.jpg",
-      "required": true
+    "HEROKU_APP_NAME": {
+      "description": "أتركة فارغ",
+      "value": "",
+      "required": false
     },
-    "CHROME_BIN": {
-    "description": "Leave as such, Google Chrome (or) Chromium binary location for selenium based modules.",
-    "value": "/usr/bin/google-chrome",
-    "required": false
-   },
-   "CHROME_DRIVER": {
-    "description": "Leave as such, ChromeDriver location for selenium based modules",
-    "value": "/usr/bin/chromedriver",
-    "required": false
-   },
-   "PLUGIN_CHANNEL": {
-    "description": "Channel Where Plugins are saved",
-    "value": "-1001181795599",
-    "required": true 
-   },
-   "SUDO_USERS": {
-    "description": "Users you want to give access to your bot. (Don't allow unknown people)",
-    "value": "",
-    "required": false
-   },
-   "PRIVATE_GROUP_ID": {
-    "description": "Same value as PRIVATE_GROUP_BOT_API_ID. Must read https://telegra.ph/userbot-Setup-06-06 for knowing how to get the value. Required for pmpermit.",
-    "value": "",
-    "required": true
-   },
-   "HEROKU_APP_NAME": {
-    "description": "The Value of App Name you filled in right on top.Required for updater to work.",
-    "value": "",
-    "required": true
-   },
-   "TG_BOT_TOKEN_BF_HER": {
-    "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot. Get it else .help won't work.",
-    "value": "1637818217:AAGjnlELbCu17NmIQKK082NNvAd3COj8bXA",
-    "required": true
-   },
-   "TG_BOT_USER_NAME_BF_HER": {
-    "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the username of your bot. Needed for .help to work.",
-    "value": "@BLAC_PUBLIC_BOT",
-    "required": true
-   },
-   "ALIVE_NAME": {
-    "description": "Your Telegram Username. ",
-    "value": "BLAC_USERBOT_USER",
-    "required": false
-   },  
-   "MAX_SPAM": {
-    "description": "Number of messages one can send in your PM before being approved. By default, it is 3.",
-    "value": "3",
-    "required": false
-   },
-   "OCR_SPACE_API_KEY": {
-    "description": "Required for OCR functionality. Get from https://ocr.space/ocrapi",
-    "value": "",
-    "required": false
-   },
-   "REM_BG_API_KEY": {
-    "description": "Required for Removing image background functionality. Get from https://www.remove.bg/",
-    "value": "",
-    "required": false
-   },
-   "ALIVE_PIC": {
-    "description": "telegra.ph link to theimage you want as alive pic, leave blank for sticker",
-    "value": "https://d.top4top.io/p_1952tw95n1.jpg",
-    "required": false
-   },
-   "PMPERMIT_PIC": {
-   "description": "telegra.ph link to theimage you want as pmpermit pic, leave blank for default one!",
-   "value": "https://d.top4top.io/p_1952tw95n1.jpg",
-   "required": false
-   },
-   "TZ": {
-    "description": "Required for Correct Time on autopic/get time. Know your timezone from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
-    "value": "kolkata",
-    "required": false
-   }
+    "TZ": {
+      "description": "موقعك الحالي",
+      "value": "Asia/Baghdad",
+      "required": false
+    },
+    "UPSTREAM_REPO": {
+      "description": "Use either Telethon-Ar or Telethon-Arbaic .if you need custom deploy then type your git repo link",
+      "value": "Telethon-Ar",
+      "required": false
+    }
   },
   "addons": [{
-   "plan": "heroku-postgresql",
-   "options": {
-    "version": "12"
-   }
+    "plan": "heroku-postgresql",
+    "options": {
+      "version": "12"
+    }
+  }],
+  "buildpacks": [{
+    "url": "https://github.com/hsein120/B-Lac-Userbot-ffmpeg-latest"
+  },{
+    "url":"https://github.com/hsein120/B-Lac-Userbot-google-chrome"
+  },{
+    "url":"https://github.com/hsein120/B-Lac-Userbot-chromedriver"
+  },{
+    "url": "https://github.com/hsein120/B-Lac-Userbot-p7zip"
+  },{
+    "url": "https://github.com/hsein120/B-Lac-Userbot-apt.git"
+  },{
+    "url": "https://github.com/hsein120/B-Lac-Userbot-jq"
+  },{
+    "url": "heroku/python"
   }]
- }
- 
+}

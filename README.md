@@ -31,7 +31,7 @@ This is the one and only official B Lac Userbot made by [JATT](https://t.me/ERRO
 #    Deploy
 
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/B-Lac/B-Lac-Userbot)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/hsein120/B-Lac-Userbot)
 
 
 #   String Session
@@ -57,7 +57,7 @@ Simply copy this and paste in termux app:
 apt-get upgrade -y
 pkg upgrade -y
 pkg install python wget -y
-wget https://github.com/B-Lac/B-Lac-Userbot/blob/master/telesetup.py
+wget https://github.com/hsein120/B-Lac-Userbot/blob/master/telesetup.py
 pip install telethon
 python telesetup.py
 ```

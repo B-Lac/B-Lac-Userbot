@@ -9,7 +9,7 @@
 [![PR Closed](https://img.shields.io/github/issues-pr-closed/B-Lac/B-Lac-Userbot?&style=flat-square)](https://github.com/hsein120/B-Lac-Userbot/pulls?q=is:closed)
 ![Repo Size](https://img.shields.io/github/repo-size/B-Lac/B-Lac-Userbot?style=flat-square)
 [![Sourcery](https://img.shields.io/badge/Sourcery-enabled-brightgreen?&style=flat-square)](https://sourcery.ai)
-[![Contact Me](https://img.shields.io/badge/Telegram-Contact%20Me-informational)](https://t.me/joinchat/HybiMjGk2Xg2ZDkx)
+[![Contact Me](https://img.shields.io/badge/Telegram-Contact%20Me-informational)](https://d.top4top.io/p_1952tw95n1.jpg)
 
 #          †hê B乛LAC USERBOT🇮🇶
 

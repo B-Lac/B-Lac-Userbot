@@ -1,15 +1,15 @@
 
-[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/B-Lac/B-Lac-Userbot)
-[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg?&style=flat-square)](https://github.com/B-Lac/B-Lac-Userbot#copyright--license)
-[![Stars](https://img.shields.io/github/stars/B-Lac/B-Lac-Userbot?&style=flat-square)](https://github.com/B-Lac/B-Lac-Userbot/stargazers)
-[![Forks](https://img.shields.io/github/forks/B-Lac/B-Lac-Userbot?&style=flat-square)](https://github.com/B-Lac/B-Lac-Userbot/network/members)
-[![Issues Open](https://img.shields.io/github/issues/B-Lac/B-Lac-Userbot?&style=flat-square)](https://github.com/B-Lac/B-Lac-Userbot/issues)
-[![Issues Closed](https://img.shields.io/github/issues-closed/B-Lac/B-Lac-Userbot?&style=flat-square)](https://github.com/B-Lac/B-Lac-Userbot/issues?q=is:closed)
-[![PR Open](https://img.shields.io/github/issues-pr/B-Lac/B-Lac-Userbot?&style=flat-square)](https://github.com/B-Lac/B-Lac-Userbot/pulls)
-[![PR Closed](https://img.shields.io/github/issues-pr-closed/B-Lac/B-Lac-Userbot?&style=flat-square)](https://github.com/B-Lac/B-Lac-Userbot/pulls?q=is:closed)
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/hsein120/B-Lac-Userbot)
+[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg?&style=flat-square)](https://github.com/hsein120/B-Lac-Userbot#copyright--license)
+[![Stars](https://img.shields.io/github/stars/B-Lac/B-Lac-Userbot?&style=flat-square)](https://github.com/hsein120/B-Lac-Userbot/stargazers)
+[![Forks](https://img.shields.io/github/forks/B-Lac/B-Lac-Userbot?&style=flat-square)](https://github.com/hsein120/B-Lac-Userbot/network/members)
+[![Issues Open](https://img.shields.io/github/issues/B-Lac/B-Lac-Userbot?&style=flat-square)](https://github.com/hsein120/B-Lac-Userbot/issues)
+[![Issues Closed](https://img.shields.io/github/issues-closed/B-Lac/B-Lac-Userbot?&style=flat-square)](https://github.com/hsein120/B-Lac-Userbot/issues?q=is:closed)
+[![PR Open](https://img.shields.io/github/issues-pr/B-Lac/B-Lac-Userbot?&style=flat-square)](https://github.com/hsein120/B-Lac-Userbot/pulls)
+[![PR Closed](https://img.shields.io/github/issues-pr-closed/B-Lac/B-Lac-Userbot?&style=flat-square)](https://github.com/hsein120/B-Lac-Userbot/pulls?q=is:closed)
 ![Repo Size](https://img.shields.io/github/repo-size/B-Lac/B-Lac-Userbot?style=flat-square)
 [![Sourcery](https://img.shields.io/badge/Sourcery-enabled-brightgreen?&style=flat-square)](https://sourcery.ai)
-[![Contact Me](https://img.shields.io/badge/Telegram-Contact%20Me-informational)](https://t.me/I_AM_PAWANBIR)
+[![Contact Me](https://img.shields.io/badge/Telegram-Contact%20Me-informational)](https://t.me/joinchat/HybiMjGk2Xg2ZDkx)
 
 #          †hê B乛LAC USERBOT🇮🇶
 
@@ -24,7 +24,7 @@ This is the one and only official B Lac Userbot made by [JATT](https://t.me/ERRO
 # The owner would not be responsible for any kind of bans due to the bot...
 
 # For any query:-
-[Join Here For Any Query](https://t.me/BLAC_USERBOT_GROUP)
+[Join Here For Any Query](https://t.me/joinchat/HybiMjGk2Xg2ZDkx)
 
 ##   FORK AT YOUR OWN RISK AND DON'T FORGET TO GIVE CREDIT OTHERWISE YOUR MOM IS BITCH🤪🤪🤪
 
@@ -37,7 +37,7 @@ This is the one and only official B Lac Userbot made by [JATT](https://t.me/ERRO
 #   String Session
 
 
-[![Run on Repl.it](https://repl.it/badge/github/STARKGANG/friday)](https://repl.it/@pawanjatt/B-Lacuserbot#main.py)
+[![Run on Repl.it](https://repl.it/badge/github/STARKGANG/friday)](https://replit.com/@klanrali/generatestringsession#stringsetup.py)
 
 
 #   POWERFULL BOT HATERS APNI GANND MARVAO😏

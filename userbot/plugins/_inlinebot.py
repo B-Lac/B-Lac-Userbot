@@ -20,20 +20,20 @@ from re import compile
 
 from telethon.events import InlineQuery, callbackquery
 from telethon.sync import custom
-from W2HBOT.utils import *
+from B-Lac-Userbot.utils import *
 
 from userbot import *
 from userbot.cmdhelp import *
 from userbot.Config import Config
 
-W2H_row = Config.BUTTONS_IN_HELP
-W2H_emoji = Config.EMOJI_IN_HELP
+B-Lac-Userbot_row = Config.BUTTONS_IN_HELP
+B-Lac-Userbot_emoji = Config.EMOJI_IN_HELP
 # thats how a lazy guy imports
-# W2HBOT
+# B-Lac-Userbot
 
 
 def button(page, modules):
-    Row = W2H_row
+    Row = B-Lac-Userbot_row
 
     modules = sorted([modul for modul in modules if not modul.startswith("_")])
     pairs = list(map(list, zip(modules[::2], modules[1::2])))
@@ -46,7 +46,7 @@ def button(page, modules):
         buttons.append(
             [
                 custom.Button.inline(
-                    f"{W2H_emoji} " + pair, data=f"Information[{page}]({pair})"
+                    f"{B-Lac-Userbot_emoji} " + pair, data=f"Information[{page}]({pair})"
                 )
                 for pair in pairs
             ]
@@ -55,12 +55,12 @@ def button(page, modules):
     buttons.append(
         [
             custom.Button.inline(
-                f"⬅️ 𝐁𝐀𝐂𝐊 {W2H_emoji}",
+                f"⬅️ 𝐁𝐀𝐂𝐊 {B-Lac-Userbot_emoji}",
                 data=f"page({(max_pages - 1) if page == 0 else (page - 1)})",
             ),
-            custom.Button.inline(f"•{W2H_emoji} ❌ {W2H_emoji}•", data="close"),
+            custom.Button.inline(f"•{B-Lac-Userbot_emoji} ❌ {B-Lac-Userbot_emoji}•", data="close"),
             custom.Button.inline(
-                f"{W2H_emoji} 𝐍𝐄𝐗𝐓 ➡️",
+                f"{B-Lac-Userbot_emoji} 𝐍𝐄𝐗𝐓 ➡️",
                 data=f"page({0 if page == (max_pages - 1) else page + 1})",
             ),
         ]
@@ -140,7 +140,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
                 link_preview=False,
             )
         else:
-            W2H_alert = "Mil Gyi Tasalli..? Kabse mere bot me ungli kr rhe h. Khudka bna lo na agr chaiye to pta nhi kaha se aajate h disturb krne. ©W2HBOT"
+            B-Lac-Userbot_alert = "Mil Gyi Tasalli..? Kabse mere bot me ungli kr rhe h. Khudka bna lo na agr chaiye to pta nhi kaha se aajate h disturb krne. ©W2HBOT"
             await event.answer(W2H_alert, cache_time=0, alert=True)
 
     @tgbot.on(

@@ -24,7 +24,7 @@ opener.addheaders = [("User-agent", useragent)]
 @register(outgoing=True, pattern=r"^.imgsearch(?: |$)(\d*)")
 @errors_handler
 async def okgoogle(img):
-    """ For .reverse command, Google search images and stickers. """
+    """For .reverse command, Google search images and stickers."""
     if os.path.isfile("okgoogle.png"):
         os.remove("okgoogle.png")
 

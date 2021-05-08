@@ -51,7 +51,7 @@ LastLog = False
 
 @register(outgoing=True, pattern="^.lastfm$")
 async def last_fm(lastFM):
-    """ For .lastfm command, fetch scrobble data from last.fm. """
+    """For .lastfm command, fetch scrobble data from last.fm."""
     if not lastFM.text[0].isalpha() and lastFM.text[0] not in ("/", "#", "@", "!"):
         await lastFM.edit("Processing...")
         preview = None
